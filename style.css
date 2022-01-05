@@ -91,6 +91,14 @@ h1 {
   margin-right: 50px;
   border-left: 7px solid;
 }
+#first-box{
+  border-image: linear-gradient(purple,pink);
+  border-image-slice: 1;
+}
+#second-box{
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
 #service {
   text-align: center;
   margin-bottom: 50px;
